@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filthy Frank Soundboard</title>
+    <meta name="description" content="The cringiest soundboard around.">
+    <link rel="shortcut icon" type="image.png" href="imgs/favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Filthy Frank Soundboard</h1>
+            <div class="keys">
+                <div data-key="68" class="key" id="alien">
+                    <kbd>D</kbd>
+                    <!--Keyboard Data element -->
+                    <span class="sound">alien</span>
+                </div>
+                <div data-key="70" class="key" id="heyBoss">
+                    <kbd>F</kbd>
+                    <span class="sound">hey boss</span>
+                </div>
+                <div data-key="71" class="key" id="nyyes">
+                    <kbd>G</kbd>
+                    <span class="sound">nyyesss</span>
+                </div>
+                <div data-key="72" class="key" id="ravioli">
+                    <kbd>H</kbd>
+                    <span class="sound">ravioli</span>
+                </div>
+                <div data-key="74" class="key" id="spaghetti">
+                    <kbd>J</kbd>
+                    <span class="sound">spaghetti</span>
+                </div>
+            </div>
+        </div>
+
+        <audio data-key="68" src="sounds/alien.m4a" id="alienSound"></audio>
+        <audio data-key="70" src="sounds/heyboss.m4a" id="heyBossSound"></audio>
+        <audio data-key="71" src="sounds/nyes.m4a" id="nyyesSound"></audio>
+        <audio data-key="72" src="sounds/ravioli.m4a" id="ravioliSound"></audio>
+        <audio data-key="74" src="sounds/spaghetti.m4a" id="spaghettiSound"></audio>
+
+    </main>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
